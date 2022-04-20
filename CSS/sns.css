@@ -1,0 +1,49 @@
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+body {
+    padding: 30px;
+}
+
+.box {
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 0.5px 0.8px rgb(236, 236, 236);
+    background-color: white;
+    padding: 15px;
+}
+
+.bd-left {
+    border-left : 1px solid rgba(197, 197, 197, 0.215);
+}
+
+.nav-tab {
+    margin-top:15px;
+}
+
+.skill-box span {
+    font-size: 12px;
+    display: inline-block; /* span 태그 사용시 중요 */
+	border: 1px solid lightgray;
+	border-radius: 100px;
+	padding: 3px 12px 5px 12px;
+	margin-right: 2px;
+	margin-bottom: 5px;
+}
+
+.frend {
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.frend img {
+    width: 5em;
+}
+
+.d-flex {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+
+}

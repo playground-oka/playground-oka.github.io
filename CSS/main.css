@@ -1,0 +1,358 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+p {
+    margin: 0;
+}
+
+.profile {
+    width: 100px; 
+    display: block; 
+    margin: auto;
+}
+
+.title {
+    
+    color: cornflowerblue; 
+    letter-spacing: 5px; 
+    text-align: center;
+}
+
+#special {
+    text-align: center;
+}
+
+.box {
+    width: 200px;
+    background-color: rgb(234, 255, 0);
+    padding: 40px;
+    border-radius:15px;
+    margin: auto;
+    color: cornflowerblue;
+    box-shadow: 5px 5px rgb(107, 90, 90);
+}
+
+.container {
+    width: 800px;
+    display: block; 
+    margin: auto;
+}
+
+.mae {
+    float: left;
+    width: 80%;
+    height: 200px;
+}
+
+.usiro {
+    float: left;
+    width: 20%;
+    height: 200px;
+    
+}
+
+.ue {
+    height: 30%;
+    
+}
+ 
+.sita {
+    height: 70%;
+    clear: both;
+}
+
+.profile1 {
+    width: 50px; 
+    float: left;
+    display: block; 
+}
+
+.name {
+    float: left;
+}
+
+.navbar div { /* navbar와 div의 사이의 스페이스는 navbar 안에 있는 모든 div를 가르킨다.*/
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #eee;
+}
+
+.navbar a {
+    font-size: 16px;
+    text-decoration: none; /* 밑줄 제거 */
+    color: black;
+}
+
+.main-background {
+    width: 100%;
+    height: 500px;
+    padding: 1px;
+    position: relative;
+    text-align: center;
+    
+    background-image: url('https://codingapple.com/wp-content/uploads/2019/06/shoes.jpg'), url();
+    background-size: cover; /* 배경 사이즈 */
+    background-repeat: no-repeat; /* 배경 반복 여부 */
+    background-attachment : fixed; /* 스크롤시 배경 위치 */
+    background-position: center; /* 배경 위치 */
+
+    /* filter: brightness(70%) 박스 필터 */
+}
+
+.main-title {
+    color: white;
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+.main-content {
+    color: white;
+    width: 50%;
+    display: block; 
+    margin: auto;
+}
+
+.main-box {
+    background-color: #eee;
+    width: 50%;
+    max-width: 600px;
+    position: relative;
+    top: -30px;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box; /* width가 padding, border 포함 */
+}
+
+input, div, textarea {
+    box-sizing: border-box;
+}
+
+.input-box {
+    width: 50%;
+    max-width: 600px;
+    top: 200px;
+    margin: auto;
+    display: block; 
+    background-color: white;
+    padding: 30px;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 10px;
+}
+
+.in-text {
+    float: left; 
+    margin-top: 10px; 
+    padding: 2px; 
+    width: 50%;
+    margin-bottom: 10px;
+
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+.in-checkbox {
+    float: left; 
+    margin-top: 30px;
+    width: 50%;
+}
+
+.in-btn {
+    float: left; 
+    width: 50%;
+}
+
+.input-group {
+    background: black;
+    padding: 30px;
+}
+
+td,th {
+    border-bottom: 1px solid rgb(152, 222, 232);
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse; /* 틈 없애기 */
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+button {
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 0px;
+    cursor: pointer;
+    display: flex;
+}
+
+button:hover {
+    background-color: chocolate;
+}
+
+button:active {
+    background-color: brown;
+}
+
+a:any-link {
+    color: black;
+    text-decoration: none;
+}
+
+a:focus {
+    color: black;
+}
+
+.flex-container {
+    display: flex;
+    background:rgb(222, 168, 58);
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    padding:5px;
+}
+
+.flex-item {
+    margin-right: 5px;
+}
+
+.test {
+    display: flex;
+    padding:50px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+.test div {
+    margin: auto;
+    padding: 20px;
+}
+
+.test i {
+    background-color: burlywood;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    padding-top: 25px;
+    margin-top: 20px;
+    box-sizing: border-box; /* 둥그런 원으로 만들어줌. */
+    color: white;
+}
+
+.test h5 {
+    margin-top: 20px;
+}
+
+.shop-bg {
+    background-color: #eee;
+    padding: 20px;
+}
+
+.shop-container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.shop-item {
+    width: 33%;
+    padding: 10px;
+}
+
+.shop-item img {
+    width: 100%;
+    display: block;
+}
+
+
+.overlay-wrap {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* 넘치는 부분은 안 보여줌 */
+}
+.overlay {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-top: 100%;
+    background-color: rgba(0,0,0,0.5); /* 반투명 검정 */
+
+    transition: all 1s; /* 위에 있는 스타일이 변하면 1초동안 서서히 변경해주셈*/
+}
+
+.overlay-wrap:hover .overlay{
+    margin-top: 50%;
+    padding-top: 30px;
+}
+
+.overlay-en {
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+progress {
+    appearance: none;
+}
+progress::-webkit-progress-inner-element {
+    width: 200%;
+    
+}
+progress::-webkit-progress-value {
+    appearance: none;
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+
+    border-radius: 5px;
+}
+progress::-webkit-progress-bar {
+    background-color: black;
+
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 1200px) {
+    .main-title {
+        font-size: 30px;
+    }
+    .test {
+        flex-wrap: wrap;
+        max-width: 600px;
+    }
+    .test div {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-title {
+        font-size: 20px;
+    }
+    .test {
+        flex-wrap: wrap;
+    }
+    .test div {
+        width: 100%;
+    }
+}
